@@ -7,3 +7,6 @@ Bobby Ton
   
 Ken Ellorando
   - I can do anything except calculate proper font em sizes
+
+Theo Economos
+  - Strengths are in HTML and CSS. Still practicing on JavaScript. 
