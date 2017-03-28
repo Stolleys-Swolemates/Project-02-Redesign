@@ -7,6 +7,9 @@ Bobby Ton
   
 Ken Ellorando
   - I can do anything except calculate proper font em sizes
+  
+Matthew Flavin
+  - My strengths are in HTML and in CSS.
 
 Theo Economos
-  - Strengths are in HTML and CSS. Still practicing on JavaScript. 
+  - Strengths are in HTML and CSS. Still practicing on JavaScript.
