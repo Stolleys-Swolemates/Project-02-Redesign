@@ -7,3 +7,6 @@ Bobby Ton
   
 Ken Ellorando
   - I can do anything except calculate proper font em sizes
+
+Matthew Flavin
+  - My strengths are in HTML and in CSS.
