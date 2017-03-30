@@ -8,4 +8,11 @@ html {
 
 body {
   background-color: blue;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.2em;
 }
