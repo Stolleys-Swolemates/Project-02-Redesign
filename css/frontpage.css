@@ -1,0 +1,11 @@
+html {
+  background-color: red;
+  background-image: url(http://iit.edu/news/iittoday/wp-content/uploads/2012/11/campus_aerial_day.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body {
+  background-color: blue;
+}
