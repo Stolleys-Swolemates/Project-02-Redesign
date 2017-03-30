@@ -1,5 +1,5 @@
 html {
-  background-color: red;
+  color: black;
   background-image: url(http://iit.edu/news/iittoday/wp-content/uploads/2012/11/campus_aerial_day.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -7,12 +7,28 @@ html {
 }
 
 body {
-  background-color: blue;
+  opacity: 2;
   margin: 1em 1em 1em 1em;
-  padding: 1em 1em 1em 1em;
+  
+  border-style: solid;
+  border-width: 2px;
+}
+
+main {
+  background-color: rgba(211, 211, 211, .6);
+  
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1.2em;
+}
+
+form {
+  padding: 1em;
+}
+
+#heading {
+  background-color: rgba (127, 38, 38, .6);
+  padding: .23em;
 }
