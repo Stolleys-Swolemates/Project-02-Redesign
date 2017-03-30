@@ -9,14 +9,12 @@ html {
 body {
   opacity: 2;
   margin: 1em 1em 1em 1em;
-  
   border-style: solid;
   border-width: 2px;
 }
 
 main {
   background-color: rgba(211, 211, 211, .6);
-  
 }
 
 h1 {
@@ -29,6 +27,6 @@ form {
 }
 
 #heading {
-  background-color: rgba (127, 38, 38, .6);
+  background-color: rgba(127, 38, 38, .8);
   padding: .23em;
 }
