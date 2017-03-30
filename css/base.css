@@ -4,7 +4,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable*/
 
 /* BASE ----------------------- */
-
+html {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
 
 /* LAYOUT/MODULAR -------------- */
 /* STATE ----------------------- */
