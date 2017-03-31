@@ -25,10 +25,20 @@ h1 {
 }
 
 form {
-  padding: 1em;
+  
 }
 
 #heading {
   background-color: rgba (127, 38, 38, .6);
   padding: .23em;
+}
+
+#user label,
+#pass label {
+  position: absolute;
+}
+
+#user label.gone, 
+#pass label.gone {
+  left: -6000px;
 }
