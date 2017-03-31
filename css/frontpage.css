@@ -25,7 +25,11 @@ h1 {
 }
 
 form {
-  
+  padding: 1em;
+}
+
+li {
+  color: rgb(0,0,0,0.75);
 }
 
 #heading {
