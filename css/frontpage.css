@@ -26,7 +26,21 @@ form {
   padding: 1em;
 }
 
+li {
+  color: rgb(0,0,0,0.75);
+}
+
 #heading {
   background-color: rgba(127, 38, 38, .8);
   padding: .23em;
+}
+
+#user label,
+#pass label {
+  position: absolute;
+}
+
+#user label.gone, 
+#pass label.gone {
+  left: -6000px;
 }
