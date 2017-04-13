@@ -88,6 +88,7 @@ a {
 }
 
 /* LAYOUT/MODULAR -------------- */
+/* Login Page */
 
 #heading {
   text-align: center;
@@ -121,7 +122,23 @@ a {
   border-color:  #E6E6FA;
   background-color: darkred;
 }
+/* Account page */
+#accountTabs li {
+  text-align: center;
+}
 
 /* STATE ----------------------- */
 
+/* Tablets */
 
+@media (min-width: 37em) {
+  #accountTabs li {
+    display: inline;
+    list-style-type: none;
+  }
+}
+
+
+/* Desktop */
+
+@media (min-width: 64em) {}
