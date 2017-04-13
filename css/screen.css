@@ -88,6 +88,8 @@ a {
 }
 
 /* LAYOUT/MODULAR -------------- */
+
+
 /* Login Page */
 
 #heading {
@@ -126,6 +128,21 @@ a {
 #accountTabs li {
   text-align: center;
 }
+
+/* PAGE SPECIFIC CLASS CSS */
+/* For if we want to do anything specific to one page */
+.loginPage {
+  background-color: aqua;
+}
+
+.accountPage {
+  
+}
+
+.financialPage {
+  
+}
+
 
 /* STATE ----------------------- */
 
