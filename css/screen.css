@@ -46,11 +46,12 @@ html {
 body {
   opacity: 2;
   margin: 1em 1em 1em 1em;
+  border-style: solid;
+  border-width: 4px;
 }
 
 main {
-  border-style: solid;
-  border-width: 4px;
+
 }
 
 h1 {
@@ -60,9 +61,8 @@ h1 {
 }
 
 form {
-  padding: 4em 1em 6em 1em;
+  padding: 4em 1em 2em 1em;
   /* Also controls empty area to be pushed down on page */
-  background-color:  #F5F5F5;
 }
 
 li {
@@ -84,7 +84,7 @@ a {
 
 #loginfooter {
   text-align: center;
-  padding-top: 1.2em;
+  padding: 1.2em .2em .2em .2em;
 }
 
 /* LAYOUT/MODULAR -------------- */
@@ -132,7 +132,17 @@ a {
 /* PAGE SPECIFIC CLASS CSS */
 /* For if we want to do anything specific to one page */
 .loginPage {
-  background-color: aqua;
+  background-image: url(/media/iit-campus-1.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.loginPage body {
+  /*Opacity of background itself */
+  background-color: rgba(245, 245, 245, 0.7);
+  /*Opacity of content within body*/
+  opacity: 1;
 }
 
 .accountPage {
