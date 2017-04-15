@@ -87,6 +87,12 @@ a {
   padding: 1.2em .2em .2em .2em;
 }
 
+#eye {
+  position: absolute;
+  right: 2.4em;
+  top: 11em;
+}
+
 /* LAYOUT/MODULAR -------------- */
 
 
