@@ -24,5 +24,24 @@ $(document).ready(function () {
       $('#pass label').removeClass('gone');
     }
   });
-
+  
+  // Checks for successful login
+  $('#loginForm').on('submit',function(e) {
+    $('div').remove();
+    //Checks for correct username
+    if ($('#usernameInput').val()==='swolley') {
+      //Checks to make sure a password was entered
+      if ($('#passwordInput').val().length != 0) {
+        window.location.replace('account/index.html');
+      }else {
+        console.log('Bad Username');
+        $('#loginForm').prepend('<div class="error">Incorrect Password</div>');
+      }
+    }else {
+      console.log('Bad Username');
+      $('#loginForm').prepend('<div class="error">Incorrect Username</div>');
+    }
+    e.preventDefault();
+  })
+  
 });
