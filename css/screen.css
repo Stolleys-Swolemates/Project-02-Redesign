@@ -88,9 +88,9 @@ a {
 }
 
 #eye {
-  position: absolute;
-  right: 2.4em;
-  top: 11em;
+  position: relative;
+  left: 10.8em;
+  bottom: 1.8em;
 }
 
 /* LAYOUT/MODULAR -------------- */
