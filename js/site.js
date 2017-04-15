@@ -42,6 +42,18 @@ $(document).ready(function () {
       $('#loginForm').prepend('<div class="error">Incorrect Username</div>');
     }
     e.preventDefault();
-  })
+  });
+
+  //Shows and hides password
+  var pwShown = 0;
+  $('#eye').on('click',function(e) {
+    if (pwShown === 0) {
+      pwShown = 1;
+      $('#passwordInput').attr('type', 'text');
+    }else {
+      pwShown = 0;
+      $('#passwordInput').attr('type', 'password');
+    }
+  });
   
 });
