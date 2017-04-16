@@ -57,11 +57,10 @@ main {
 h1 {
   font-size: 2em;
   line-height: 1.2em;
-
 }
 
 form {
-  padding: 4em 1em 2em 1em;
+  padding: 1em 1em 2em 1em;
   /* Also controls empty area to be pushed down on page */
 }
 
@@ -75,7 +74,8 @@ input {
 }
 
 label {
-  padding: .3em 0em 0em .5em;
+  padding: 0.3em 0.5em;
+  color: rgb(0,0,0,0.64);
 }
 
 a {
@@ -85,6 +85,12 @@ a {
 #loginfooter {
   text-align: center;
   padding: 1.2em .2em .2em .2em;
+}
+
+#eye {
+  position: relative;
+  left: 10.8em;
+  bottom: 1.8em;
 }
 
 /* LAYOUT/MODULAR -------------- */
@@ -114,7 +120,6 @@ a {
 }
 
 #submitmain {
-  color: darkred;
   border: solid;
   border-color: darkred;
 }
