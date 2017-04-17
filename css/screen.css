@@ -137,7 +137,7 @@ a {
 /* PAGE SPECIFIC CLASS CSS */
 /* For if we want to do anything specific to one page */
 .loginPage {
-  background-image: url(/media/iit-campus-1.jpg);
+  background-image: url(../media/iit-campus-1.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
