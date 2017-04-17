@@ -109,13 +109,7 @@ td, th {
 
 
 /* LAYOUT/MODULAR -------------- */
-.floatLeft {
-  float: left;
-}
 
-.floatRight {
-  float: right;
-}
 
 #heading {
   text-align: center;
@@ -197,6 +191,8 @@ td, th {
   max-height: 10em;
 }
 
+
+
 .financialPage {
   
 }
@@ -207,15 +203,21 @@ td, th {
 /* Tablets */
 
 @media (min-width: 37em) {
+  .floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+  
   .loginPage body {
     margin: 1em 5em 2em 5em;
   }
   .accountPage nav {
     text-align: center;
   }
-  .accountPage section {
-    max-width: 50%;
-  }
+  
   
   #accountTabs li {
     display: inline;
@@ -229,5 +231,9 @@ td, th {
 @media (min-width: 64em) {
   .loginPage body {
     margin: 4em 20em 2em 20em;
+  }
+  
+  .accountPage section {
+    max-width: 50%;
   }
 }
