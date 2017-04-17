@@ -11,7 +11,7 @@ $(document).ready(function () {
   $("#passwordInput").on('focus', function () {
     $('#pass label').addClass('gone');
   });
-
+  
   // Restores labels if input length is zero
   $('html').focusout(function () {
     if ($('#usernameInput').val().length === 0) {
