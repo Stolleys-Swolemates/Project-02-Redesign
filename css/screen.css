@@ -183,6 +183,10 @@ td, th {
   .loginPage body {
     margin: 1em 5em 2em 5em;
   }
+  .accountPage nav {
+    text-align: center;
+  }
+  
   #accountTabs li {
     display: inline;
     list-style-type: none;
