@@ -55,9 +55,14 @@ main {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3.05em;
   line-height: 1.2em;
   text-align: center;
+}
+
+h2 {
+  font-size: 2.441em;
+  line-height: 1.253em;
 }
 
 form {
@@ -144,7 +149,7 @@ td, th {
 /* PAGE SPECIFIC CLASS CSS */
 /* For if we want to do anything specific to one page */
 .loginPage {
-  background-image: url(/media/iit-campus-1.jpg);
+  background-image: url(../media/iit-campus-1.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
