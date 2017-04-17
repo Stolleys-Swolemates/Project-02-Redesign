@@ -45,7 +45,8 @@ html {
 
 body {
   opacity: 2;
-  margin: 1em 1em 1em 1em;
+  margin: 1em .5em 1em .5em;
+  padding: 1em .5em 1em .5em;
   border-style: solid;
   border-width: 4px;
 }
@@ -169,6 +170,10 @@ td, th {
 .accountPage li {
   font-size: 1.2em;
 }
+
+.accountPage section {
+    padding-bottom: 2em;
+  }
 
 .financialPage {
   
