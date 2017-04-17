@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class = "loginPage" lang="en">
 
 <head>
   <title>MyIIT Student Financials Login</title>
@@ -7,32 +7,35 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
   <!-- STYLESHEET -->
-  <link rel="stylesheet" media="screen" href="./css/screen.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
 
   <!-- jQuery Google CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
   <!-- Page javascript -->
-  <script src="./js/site.js"></script>
+  <script src="js/site.js"></script>
 </head>
 
 <body>
   <main>
-
     <h1 id="heading">MyIIT Student Financials Login</h1>
-    <form id="loginForm" method="get" action="#PageAfterLogin">
+    <form id="loginForm" method="get" action="account/index.html">
       <ul>
         <!-- USERNAME -->
         <li id="user">
           <label for="usernameInput">Username</label>
-          <input type="text" id="usernameInput" />
+          <input autocomplete="off" type="text" id="usernameInput" />
         </li>
         <!-- PASSWORD -->
         <li id="pass">
           <label for="passwordInput">Password</label>
-          <input type="password" id="passwordInput" />
+          <input autocomplete="off" type="password" id="passwordInput" />
+          <button type="button" id="eye">
+            <img src="https://cdn0.iconfinder.com/data/icons/feather/96/eye-16.png" alt="eye" />
+          </button>
         </li>
         <!-- SUBMIT -->
         <li>
@@ -40,15 +43,11 @@
         </li>
       </ul>
       <!-- Maybe create our own forgot password page later -->
-      <p id = "forgot"><a href="www.google.com">Forgot Password?</a></p>
+      <p id="forgot"><a href="https://www.google.com">Forgot Password?</a></p>
     </form>
-
-
   </main>
-
   <footer id="loginfooter">
     Created by Theo Economos, Ken Ellorando, Matthew Flavin &amp; Bobby Ton
   </footer>
-</body>
-
+</body>  
 </html>
