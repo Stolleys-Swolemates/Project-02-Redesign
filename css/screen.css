@@ -57,6 +57,7 @@ main {
 h1 {
   font-size: 3.05em;
   line-height: 1.2em;
+  text-align: center;
 }
 
 h2 {
@@ -96,6 +97,12 @@ a {
   position: relative;
   left: 10.8em;
   bottom: 1.8em;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
 /* LAYOUT/MODULAR -------------- */

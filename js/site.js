@@ -53,4 +53,10 @@ $(document).ready(function () {
     }
   });
   
+  //Changes amount due
+  $('#submitpay').on('click',function(e){
+    var ent = $('#pay').val();
+    var nb = $('#balance').text(balance.innerHTML - ent );
+  });
+  
 });
