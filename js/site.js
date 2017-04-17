@@ -21,9 +21,6 @@ $(document).ready(function () {
       $('#pass label').removeClass('gone');
     }
   });
-<<<<<<< HEAD
- 
-=======
   
   // Checks for successful login
   $('#loginForm').on('submit',function(e) {
@@ -56,5 +53,4 @@ $(document).ready(function () {
     }
   });
   
->>>>>>> 40a1025ffd6247ffaf65f6c8d611efbc4eb6a694
 });
