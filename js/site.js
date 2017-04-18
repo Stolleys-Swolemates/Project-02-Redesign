@@ -61,6 +61,9 @@ $(document).ready(function () {
     var ent = $('#pay').val();
     $('#balance').text(balance.innerHTML - ent );
     $('#pay').val("");
+      if(ent > 1000) {
+      $('#min-balance').text("0");
+    }
   });
   
 });
