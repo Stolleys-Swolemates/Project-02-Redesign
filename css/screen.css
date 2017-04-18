@@ -176,12 +176,15 @@ td, th {
   font-size: 1.2em;
 }
 
+.accountPage li a {
+}
+
 .accountPage h2 {
-  font-size: 1.6em;
+  font-size: 1.7em;
 }
 
 .accountPage section {
-  padding: .5em;
+  padding: 1.5em;
   margin: .3em .3em .3em .1em;
   border-width: 3px;
   border-style: solid;
@@ -248,6 +251,9 @@ td, th {
   .accountPage body {
     margin: 1em 10em;
     padding: 1em 1em;
+  }
+  .accountPage #personalID, #publicSafety{
+    padding-bottom: 2.14em;
   }
   .sectionLeft {
     float: left;
