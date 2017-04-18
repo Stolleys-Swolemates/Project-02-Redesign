@@ -147,10 +147,33 @@ td, th {
   border-color:  #E6E6FA;
   background-color: darkred;
 }
-/* Account page */
+
+
+/* NAVIGATION BAR */
+nav button{
+  margin: .5em;
+  background-color: indianred;
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkred;
+  
+  margin-left: 35%;
+  width: 30%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.25em;
+  padding: .4em;
+}
+nav:hover #accountTabs{
+  display: block;
+}
+#accountTabs {
+  display: none;
+}
 #accountTabs li {
   text-align: center;
 }
+
+
 
 /* PAGE SPECIFIC CLASS CSS */
 /* For if we want to do anything specific to one page */
@@ -243,16 +266,16 @@ nav li {
 }
 #submitpay  {
   color: white;
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 1em;
   background-color: mediumblue;
 }
 
 #confirmpay {
   color: white;
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 1em;
   background-color: mediumblue;
 }
@@ -272,6 +295,7 @@ nav li {
   body {
     margin-left: 3em;
     margin-right: 3em;
+    padding-top: 1em;
   }
   /* Account Page */
   .loginPage body {
@@ -293,6 +317,18 @@ nav li {
   .financialPage section {
     padding: 1em 2em;
   }
+  
+  
+
+  nav button {
+    display: none;
+  }
+
+  #accountTabs {
+    display: block;
+  }
+
+
 }
 
 
