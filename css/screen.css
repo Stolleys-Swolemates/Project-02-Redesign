@@ -239,7 +239,6 @@ nav li {
 
 .step {
   font-size: 2em;
-  padding-bottom: .5em;
 }
 /* END OF PAGE SPECIFICS ************************/
 
@@ -308,11 +307,11 @@ nav li {
   }
   
   .financialPage .balanceInfo {
-    margin: 1em 4em;
+    margin: 1em 4em 3em 4em;
   }
   
   .financialPage .payment {
-    margin: 1em 4em;
+    margin: 1em 4em 3em 4em;
   }
 
 }
