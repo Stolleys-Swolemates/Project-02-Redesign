@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -21,35 +21,28 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 
 /* -- MODULAR SCALE -- */
-/* MAJOR THIRD 4:5 
+/*
+  MAJOR THIRD 4:5
   BASE= 1.25em = 20px / 16px
-  Line height  = 1.2em = 24px @ Base 
+  Line height  = 1.2em = 24px @ Base
 */
-  
-
 
 /* BASE ----------------------- */
 /* =============================================== */
 
 html {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
   color: black;
-  /*
-  background-image: url(http://iit.edu/news/iittoday/wp-content/uploads/2012/11/campus_aerial_day.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  */
 }
 
 body {
   opacity: 2;
-  margin: 1em .5em 1em .5em;
+  margin: 1em 0.5em 1em 0.5em;
   padding-bottom: 1em;
   border-style: solid;
-  border-width: 4px;
+  border-width: 0.2em;
 }
 
 h1 {
@@ -69,7 +62,7 @@ form {
 }
 
 li {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 input {
@@ -98,9 +91,9 @@ a {
 }
 
 td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+  border: 0.05em solid #dddddd;
+  text-align: left;
+  padding: 0.4em;
 }
 
 
@@ -118,8 +111,8 @@ td, th {
 
 #heading {
   text-align: center;
-  background-color: rgba(127, 38, 38, .8);
-  padding: .23em;
+  background-color: rgba(127, 38, 38, 0.8);
+  padding: 0.23em;
 }
 
 #user label,
@@ -129,11 +122,11 @@ td, th {
 
 #user label.gone,
 #pass label.gone {
-  left: -6000px;
+  left: -300em;
 }
 
 #forgot {
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
 }
 
@@ -143,14 +136,48 @@ td, th {
 }
 
 #submitmain:hover {
-  color:  #E6E6FA;
-  border-color:  #E6E6FA;
+  color: #E6E6FA;
+  border-color: #E6E6FA;
   background-color: darkred;
 }
-/* Account page */
+
+
+/* NAVIGATION BAR */
+nav button {
+  margin: 0.5em;
+  background-color: indianred;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: darkred;
+
+  margin-left: 35%;
+  width: 30%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.25em;
+  padding: 0.4em;
+}
+nav:hover #accountTabs {
+  display: block;
+}
+#accountTabs {
+  display: none;
+}
+
+/* Gives a glow on the menu hover */
+#tab:hover {
+  text-shadow: 0.05em 0.05em 0.5em orange;
+}
+
 #accountTabs li {
   text-align: center;
 }
+
+#accountTabs li a {
+  /* Removes underline from links */
+  text-decoration: none;
+}
+
+
 
 /* PAGE SPECIFIC CLASS CSS */
 /* For if we want to do anything specific to one page */
@@ -177,7 +204,6 @@ td, th {
 }
 .accountPage body {
   background-color: #FDFDFD;
-  
 }
 
 nav li {
@@ -190,8 +216,8 @@ nav li {
 
 .accountPage section {
   padding: 1.5em;
-  margin: .3em .3em .3em .1em;
-  border-width: 3px;
+  margin: 0.3em 0.3em 0.3em 0.1em;
+  border-width: 1.35em;
   border-style: solid;
   border-color: darkred;
   clear: both;
@@ -209,13 +235,60 @@ nav li {
   text-align: center;
 }
 
+#balance-label, #balance {
+  font-size: 1.5em;
+}
+
+#confirmpay {
+    display: none;
+}
+
 /* FINANCIAL PAGE *******************************/
+
 .financialPage {
   background-color: darkred;
 }
 
 .financialPage body {
   background-color: #FDFDFD;
+}
+
+.financialPage section {
+  padding: 1em 1em;
+}
+
+.financialPage th{
+  text-align: center;
+}
+.financialPage .balanceInfo, .payment{
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkred;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.financialPage h1 {
+  padding-bottom: 1em;
+}
+#submitpay  {
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1em;
+  background-color: mediumblue;
+}
+
+#confirmpay {
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1em;
+  background-color: mediumblue;
+}
+
+.step {
+  font-size: 2em;
 }
 /* END OF PAGE SPECIFICS ************************/
 
@@ -225,25 +298,57 @@ nav li {
 
 /* Tablets */
 
-@media (min-width: 750px) {
+@media (min-width: 700px) {
+  body {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 1em;
+  }
   /* Account Page */
-
   .loginPage body {
     margin: 2em 12em 2em 12em;
   }
   nav {
     text-align: center;
   }
-  
   #accountTabs li {
     display: inline;
     list-style-type: none;
+    padding-left: .1em;
+    padding-right: .1em;
   }
+  .financialPage .balanceInfo {
+    margin: 1em 2em;
+  }
+  .financialPage .payment {
+    margin: 1em 2em;
+  }
+  .financialPage section {
+    padding: 1em 2em;
+  }
+  
+  
+
+  nav button {
+    display: none;
+  }
+
+  #accountTabs {
+    display: block;
+  }
+
+
 }
 
 
 /* Desktop */
 @media (min-width: 1024px) {
+  
+  #accountTabs li {
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+  
   /* Login Page */
   .loginPage body {
     margin: 4em 19em 4em 19em;
@@ -255,7 +360,7 @@ nav li {
     padding: 1em 1em;
   }
   .accountPage #personalID, #publicSafety{
-    padding-bottom: 2.14em;
+    padding-bottom: 1.53em;
   }
   .sectionLeft {
     float: left;
@@ -267,4 +372,16 @@ nav li {
   }
   
   /* Financial Page */
+  .financialPage body {
+    margin: 1em 10em;
+    padding: 1em 2em;
+  }
+  
+  .financialPage .balanceInfo {
+    margin: 1em 4em 3em 4em;
+  }
+  
+  .financialPage .payment {
+    margin: 1em 4em 3em 4em;
+  }
 }

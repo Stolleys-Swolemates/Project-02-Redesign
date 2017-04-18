@@ -59,11 +59,23 @@ $(document).ready(function () {
   //Changes amount due
   $('#submitpay').on('click',function(e){
     var ent = $('#pay').val();
-    if(ent >= 1000) {
-      $('#balance').text(balance.innerHTML - ent );
-      $('#pay').val("");
-      $('#min-balance').text(0);
+    if(ent === ""){
+      alert("There is no payment amount entered! Please try again.");
+    }else{
+      $('#submitpay').hide();
+      $('#confirmpay').show();
     }
   });
+  
+  $('#confirmpay').on('click',function(e){
+    var ent = $('#pay').val();
+    $('#balance').text(balance.innerHTML - ent );
+    $('#pay').val("");
+      if(ent > 1000) {
+      $('#min-balance').text("0");
+    }
+  alert("Amount Paid! Total Balance: $" + balance.innerHTML);
+  });
+    
   
 });
