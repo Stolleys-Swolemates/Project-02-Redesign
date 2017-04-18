@@ -10,7 +10,7 @@
   <link rel="stylesheet" media="screen" href="../../css/screen.css" />
 
   <!-- Font Awesome Linking -->
-  <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css"/>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
@@ -70,20 +70,20 @@
     <div class="payment">
       <form id="cardpay">
         <div id="payform-cholder">
-          <label>Card Holder's Name</label>
-          <input type="text" placeholder="Name Appearing on Card" />
+          <label for="name-on-card">Card Holder's Name</label>
+          <input type="text" placeholder="Name Appearing on Card" id="name-on-card"/>
         </div>
         <div id="payform-cnumber">
-          <label>Card Number</label>
-          <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" />
+          <label for="card-number">Card Number</label>
+          <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" id="card-number"/>
         </div>
         <div id="payform-cvv">
-          <label>Security Code</label>
-          <input type="text" placeholder="CVV" />
+          <label for="card-security-code">Security Code</label>
+          <input type="text" placeholder="CVV" id="card-security-code"/>
         </div>
         <div id="payform-expdate">
-          <label>Card Exp Date</label>
-          <select>
+          <label for="card-exp">Card Exp Date</label>
+          <select id="card-exp">
               <option value="01">January</option>
               <option value="02">February </option>
               <option value="03">March</option>
