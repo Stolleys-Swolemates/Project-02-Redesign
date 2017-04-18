@@ -36,12 +36,6 @@ html {
   font-size: 1.2em;
   line-height: 1.2em;
   color: black;
-  /*
-  background-image: url(http://iit.edu/news/iittoday/wp-content/uploads/2012/11/campus_aerial_day.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  */
 }
 
 body {
@@ -176,7 +170,6 @@ nav:hover #accountTabs{
 }
 #accountTabs li {
   text-align: center;
-  
 }
 
 #accountTabs li a {
@@ -388,5 +381,4 @@ nav li {
   .financialPage .payment {
     margin: 1em 4em 3em 4em;
   }
-
 }
