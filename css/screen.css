@@ -240,7 +240,7 @@ nav li {
 }
 
 #confirmpay {
-    display: none;
+  display: none;
 }
 
 /* FINANCIAL PAGE *******************************/
@@ -257,12 +257,12 @@ nav li {
   padding: 1em 1em;
 }
 
-.financialPage th{
+.financialPage th {
   text-align: center;
 }
-.financialPage .balanceInfo, .payment{
+.financialPage .balanceInfo, .payment {
   border-style: solid;
-  border-width: 3px;
+  border-width: 0.15em;
   border-color: darkred;
   padding: 1em;
   margin-bottom: 2em;
@@ -271,7 +271,7 @@ nav li {
 .financialPage h1 {
   padding-bottom: 1em;
 }
-#submitpay  {
+#submitpay {
   color: white;
   width: 80%;
   margin-left: 10%;
@@ -314,8 +314,8 @@ nav li {
   #accountTabs li {
     display: inline;
     list-style-type: none;
-    padding-left: .1em;
-    padding-right: .1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
   }
   .financialPage .balanceInfo {
     margin: 1em 2em;
@@ -326,8 +326,6 @@ nav li {
   .financialPage section {
     padding: 1em 2em;
   }
-  
-  
 
   nav button {
     display: none;
@@ -343,12 +341,12 @@ nav li {
 
 /* Desktop */
 @media (min-width: 1024px) {
-  
+
   #accountTabs li {
-    padding-left: .2em;
-    padding-right: .2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
   }
-  
+
   /* Login Page */
   .loginPage body {
     margin: 4em 19em 4em 19em;
@@ -359,7 +357,7 @@ nav li {
     margin: 1em 10em;
     padding: 1em 1em;
   }
-  .accountPage #personalID, #publicSafety{
+  .accountPage #personalID, #publicSafety {
     padding-bottom: 1.53em;
   }
   .sectionLeft {
@@ -370,17 +368,17 @@ nav li {
     float: right;
     width: 47%;
   }
-  
+
   /* Financial Page */
   .financialPage body {
     margin: 1em 10em;
     padding: 1em 2em;
   }
-  
+
   .financialPage .balanceInfo {
     margin: 1em 4em 3em 4em;
   }
-  
+
   .financialPage .payment {
     margin: 1em 4em 3em 4em;
   }
