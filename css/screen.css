@@ -209,6 +209,10 @@ nav li {
   text-align: center;
 }
 
+#confirmpay {
+    display: none;
+}
+
 /* FINANCIAL PAGE *******************************/
 .financialPage {
   background-color: darkred;
