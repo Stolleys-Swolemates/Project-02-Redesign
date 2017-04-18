@@ -176,6 +176,12 @@ nav:hover #accountTabs{
 }
 #accountTabs li {
   text-align: center;
+  
+}
+
+#accountTabs li a {
+  /* Removes underline from links */
+  text-decoration: none;
 }
 
 
@@ -312,6 +318,8 @@ nav li {
   #accountTabs li {
     display: inline;
     list-style-type: none;
+    padding-left: .1em;
+    padding-right: .1em;
   }
   .financialPage .balanceInfo {
     margin: 1em 2em;
@@ -339,6 +347,12 @@ nav li {
 
 /* Desktop */
 @media (min-width: 1024px) {
+  
+  #accountTabs li {
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+  
   /* Login Page */
   .loginPage body {
     margin: 4em 19em 4em 19em;
