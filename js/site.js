@@ -1,6 +1,3 @@
-// Stolley only wants one js file
-// Also, avoid using "onclick" when you guys do html tags
-
 $(document).ready(function () {
   // Frontpage submit
   $("#loginForm").on('submit', function (e) {});
@@ -14,7 +11,7 @@ $(document).ready(function () {
   $("#passwordInput").on('focus', function () {
     $('#pass label').addClass('gone');
   });
-
+  
   // Restores labels if input length is zero
   $('html').focusout(function () {
     if ($('#usernameInput').val().length === 0) {
@@ -61,6 +58,8 @@ $(document).ready(function () {
     var ent = $('#pay').val();
     $('#balance').text(balance.innerHTML - ent );
     $('#pay').val("");
+    if(ent > 1000) {
+      $('#min-balance').text("0");
+    }
   });
-  
 });
