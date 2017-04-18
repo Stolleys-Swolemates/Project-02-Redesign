@@ -237,6 +237,7 @@ nav li {
 
 #balance-label, #balance {
   font-size: 1.5em;
+  color: #66FF00;
 }
 
 #confirmpay {
