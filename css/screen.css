@@ -248,6 +248,9 @@ nav li {
   .loginPage body {
     margin: 4em 19em 4em 19em;
   }
+<<<<<<< HEAD
+}
+=======
 
   /* Account Page */
   .accountPage body {
@@ -268,3 +271,4 @@ nav li {
   
   /* Financial Page */
 }
+>>>>>>> 685ff017f26effa6a3e75068758dd971cbfca52a
