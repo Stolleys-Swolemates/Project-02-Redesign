@@ -169,6 +169,11 @@ nav:hover #accountTabs{
 #accountTabs {
   display: none;
 }
+
+/* Gives a glow on the menu hover */
+#tab:hover {
+   text-shadow: 1px 1px 10px orange; 
+}
 #accountTabs li {
   text-align: center;
 }
