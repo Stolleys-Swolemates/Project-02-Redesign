@@ -46,14 +46,9 @@ html {
 body {
   opacity: 2;
   margin: 1em .5em 1em .5em;
-  padding-top: 1em;
   padding-bottom: 1em;
   border-style: solid;
   border-width: 4px;
-}
-
-main {
-
 }
 
 h1 {
@@ -68,7 +63,7 @@ h2 {
 }
 
 form {
-  padding: 0.5em 1em 1.5em 1em;
+  padding: 0.5em 1.5em 0.5em 1em;
   /* Also controls empty area to be pushed down on page */
 }
 
@@ -220,11 +215,11 @@ td, th {
 
 /* Tablets */
 
-@media (min-width: 37em) {
+@media (min-width: 750px) {
   /* Account Page */
 
   .loginPage body {
-    margin: 1em 5em 2em 5em;
+    margin: 1em 10em 1em 10em;
   }
   .accountPage nav {
     text-align: center;
@@ -238,10 +233,10 @@ td, th {
 
 
 /* Desktop */
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   /* Login Page */
   .loginPage body {
-    margin: 4em 20em 2em 20em;
+    margin: 4em 10em 4em 10em;
   }
 
   /* Account Page */
