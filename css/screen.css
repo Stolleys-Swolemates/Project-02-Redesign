@@ -46,14 +46,9 @@ html {
 body {
   opacity: 2;
   margin: 1em .5em 1em .5em;
-  padding-top: 1em;
   padding-bottom: 1em;
   border-style: solid;
   border-width: 4px;
-}
-
-main {
-
 }
 
 h1 {
@@ -68,7 +63,7 @@ h2 {
 }
 
 form {
-  padding: 0.5em 1em 1.5em 1em;
+  padding: 0.5em 1.5em 0.5em 1em;
   /* Also controls empty area to be pushed down on page */
 }
 
@@ -167,20 +162,25 @@ td, th {
 .accountPage {
   
 }
+.accountPage body {
+  background-color: #FDFDFD;
+  
+}
 
-.accountPage li {
+nav li {
   font-size: 1.2em;
 }
 
 .accountPage h2 {
-  font-size: 1.6em;
+  font-size: 1.7em;
 }
 
 .accountPage section {
-  padding: .5em;
+  padding: 1.5em;
   margin: .3em .3em .3em .1em;
-  border-width: 1px;
+  border-width: 3px;
   border-style: solid;
+  border-color: darkred;
   clear: both;
   height: auto;
   overflow: auto;
@@ -191,33 +191,39 @@ td, th {
   max-height: 10em;
 }
 
+.accountPage footer {
+  clear: both;
+  text-align: center;
+}
 
 
 .financialPage {
   
 }
 
+.contentLeft {
+  float: none;
+  text-align: center;
+}
+
+.contentRight {
+  float: none;
+  text-align: center;
+}
 
 /* STATE ----------------------- */
 
 /* Tablets */
 
-@media (min-width: 37em) {
-  .floatLeft {
-  float: left;
-}
+@media (min-width: 750px) {
+  /* Account Page */
 
-.floatRight {
-  float: right;
-}
-  
   .loginPage body {
-    margin: 1em 5em 2em 5em;
+    margin: 2em 12em 2em 12em;
   }
-  .accountPage nav {
+  nav {
     text-align: center;
   }
-  
   
   #accountTabs li {
     display: inline;
@@ -227,13 +233,28 @@ td, th {
 
 
 /* Desktop */
-
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
+  /* Login Page */
   .loginPage body {
-    margin: 4em 20em 2em 20em;
+    margin: 4em 19em 4em 19em;
+  }
+
+  /* Account Page */
+  .accountPage body {
+    margin: 1em 10em;
+    padding: 1em 1em;
+  }
+  .accountPage #personalID, #publicSafety{
+    padding-bottom: 2.14em;
+  }
+  .sectionLeft {
+    float: left;
+    width: 50%;
+  }
+  .sectionRight {
+    float: right;
+    width: 47%;
   }
   
-  .accountPage section {
-    max-width: 50%;
-  }
+  /* Financial Page */
 }
