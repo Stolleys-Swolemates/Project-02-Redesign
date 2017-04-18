@@ -167,6 +167,10 @@ td, th {
 .accountPage {
   
 }
+.accountPage body {
+  background-color: #FDFDFD;
+  
+}
 
 .accountPage li {
   font-size: 1.2em;
@@ -179,8 +183,9 @@ td, th {
 .accountPage section {
   padding: .5em;
   margin: .3em .3em .3em .1em;
-  border-width: 1px;
+  border-width: 3px;
   border-style: solid;
+  border-color: darkred;
   clear: both;
   height: auto;
   overflow: auto;
@@ -191,33 +196,39 @@ td, th {
   max-height: 10em;
 }
 
+.accountPage footer {
+  clear: both;
+  text-align: center;
+}
 
 
 .financialPage {
   
 }
 
+.contentLeft {
+  float: none;
+  text-align: center;
+}
+
+.contentRight {
+  float: none;
+  text-align: center;
+}
 
 /* STATE ----------------------- */
 
 /* Tablets */
 
 @media (min-width: 37em) {
-  .floatLeft {
-  float: left;
-}
+  /* Account Page */
 
-.floatRight {
-  float: right;
-}
-  
   .loginPage body {
     margin: 1em 5em 2em 5em;
   }
   .accountPage nav {
     text-align: center;
   }
-  
   
   #accountTabs li {
     display: inline;
@@ -227,13 +238,25 @@ td, th {
 
 
 /* Desktop */
-
 @media (min-width: 64em) {
+  /* Login Page */
   .loginPage body {
     margin: 4em 20em 2em 20em;
   }
-  
-  .accountPage section {
-    max-width: 50%;
+
+  /* Account Page */
+  .accountPage body {
+    margin: 1em 10em;
+    padding: 1em 1em;
   }
+  .sectionLeft {
+    float: left;
+    width: 50%;
+  }
+  .sectionRight {
+    float: right;
+    width: 47%;
+  }
+  
+  /* Financial Page */
 }
