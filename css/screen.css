@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -21,18 +21,17 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 
 /* -- MODULAR SCALE -- */
-/* MAJOR THIRD 4:5 
+/*
+  MAJOR THIRD 4:5
   BASE= 1.25em = 20px / 16px
-  Line height  = 1.2em = 24px @ Base 
+  Line height  = 1.2em = 24px @ Base
 */
-  
-
 
 /* BASE ----------------------- */
 /* =============================================== */
 
 html {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
   color: black;
@@ -46,10 +45,10 @@ html {
 
 body {
   opacity: 2;
-  margin: 1em .5em 1em .5em;
+  margin: 1em 0.5em 1em 0.5em;
   padding-bottom: 1em;
   border-style: solid;
-  border-width: 4px;
+  border-width: 0.2em;
 }
 
 h1 {
@@ -69,7 +68,7 @@ form {
 }
 
 li {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 input {
@@ -98,9 +97,9 @@ a {
 }
 
 td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+  border: 0.05em solid #dddddd;
+  text-align: left;
+  padding: 0.4em;
 }
 
 
@@ -118,8 +117,8 @@ td, th {
 
 #heading {
   text-align: center;
-  background-color: rgba(127, 38, 38, .8);
-  padding: .23em;
+  background-color: rgba(127, 38, 38, 0.8);
+  padding: 0.23em;
 }
 
 #user label,
@@ -129,11 +128,11 @@ td, th {
 
 #user label.gone,
 #pass label.gone {
-  left: -6000px;
+  left: -300em;
 }
 
 #forgot {
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
 }
 
@@ -143,27 +142,27 @@ td, th {
 }
 
 #submitmain:hover {
-  color:  #E6E6FA;
-  border-color:  #E6E6FA;
+  color: #E6E6FA;
+  border-color: #E6E6FA;
   background-color: darkred;
 }
 
 
 /* NAVIGATION BAR */
-nav button{
-  margin: .5em;
+nav button {
+  margin: 0.5em;
   background-color: indianred;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0.1em;
   border-color: darkred;
-  
+
   margin-left: 35%;
   width: 30%;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.25em;
-  padding: .4em;
+  padding: 0.4em;
 }
-nav:hover #accountTabs{
+nav:hover #accountTabs {
   display: block;
 }
 #accountTabs {
@@ -172,11 +171,11 @@ nav:hover #accountTabs{
 
 /* Gives a glow on the menu hover */
 #tab:hover {
-   text-shadow: 1px 1px 10px orange; 
+  text-shadow: 0.05em 0.05em 0.5em orange;
 }
+
 #accountTabs li {
   text-align: center;
-  
 }
 
 #accountTabs li a {
@@ -211,7 +210,6 @@ nav:hover #accountTabs{
 }
 .accountPage body {
   background-color: #FDFDFD;
-  
 }
 
 nav li {
@@ -224,8 +222,8 @@ nav li {
 
 .accountPage section {
   padding: 1.5em;
-  margin: .3em .3em .3em .1em;
-  border-width: 3px;
+  margin: 0.3em 0.3em 0.3em 0.1em;
+  border-width: 1.35em;
   border-style: solid;
   border-color: darkred;
   clear: both;
