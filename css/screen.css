@@ -230,6 +230,7 @@ nav li {
   border-width: 3px;
   border-color: darkred;
   padding: 1em;
+  margin-bottom: 2em;
 }
 
 .financialPage h1 {
@@ -238,6 +239,7 @@ nav li {
 
 .step {
   font-size: 2em;
+  padding-bottom: .5em;
 }
 /* END OF PAGE SPECIFICS ************************/
 
