@@ -167,6 +167,10 @@ td, th {
 .accountPage {
   
 }
+.accountPage body {
+  background-color: #FDFDFD;
+  
+}
 
 .accountPage li {
   font-size: 1.2em;
@@ -179,8 +183,9 @@ td, th {
 .accountPage section {
   padding: .5em;
   margin: .3em .3em .3em .1em;
-  border-width: 1px;
+  border-width: 3px;
   border-style: solid;
+  border-color: darkred;
   clear: both;
   height: auto;
   overflow: auto;
@@ -201,6 +206,15 @@ td, th {
   
 }
 
+.contentLeft {
+  float: none;
+  text-align: center;
+}
+
+.contentRight {
+  float: none;
+  text-align: center;
+}
 
 /* STATE ----------------------- */
 
@@ -208,12 +222,7 @@ td, th {
 
 @media (min-width: 37em) {
   /* Account Page */
-  .contentLeft {
-    float: left;
-  }
-  .contentRight {
-    float: right;
-  }
+
   .loginPage body {
     margin: 1em 5em 2em 5em;
   }
@@ -247,14 +256,6 @@ td, th {
   .sectionRight {
     float: right;
     width: 47%;
-  }
-  .contentLeft {
-    float: none;
-    text-align: center;
-  }
-  .contentRight {
-    float: none;
-    text-align: center;
   }
   
   /* Financial Page */
