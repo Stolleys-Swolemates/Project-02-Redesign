@@ -59,10 +59,10 @@ $(document).ready(function () {
   //Changes amount due
   $('#submitpay').on('click',function(e){
     var ent = $('#pay').val();
-    $('#balance').text(balance.innerHTML - ent );
-    $('#pay').val("");
-      if(ent > 1000) {
-      $('#min-balance').text("0");
+    if(ent >= 1000) {
+      $('#balance').text(balance.innerHTML - ent );
+      $('#pay').val("");
+      $('#min-balance').text(0);
     }
   });
   
