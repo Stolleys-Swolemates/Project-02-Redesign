@@ -167,11 +167,8 @@ td, th {
   
 }
 
-.accountPage li {
+nav li {
   font-size: 1.2em;
-}
-
-.accountPage li a {
 }
 
 .accountPage h2 {
@@ -224,7 +221,7 @@ td, th {
   .loginPage body {
     margin: 2em 12em 2em 12em;
   }
-  .accountPage nav {
+  nav {
     text-align: center;
   }
   
