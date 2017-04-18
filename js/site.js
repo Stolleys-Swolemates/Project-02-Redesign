@@ -64,6 +64,9 @@ $(document).ready(function () {
       if(ent > 1000) {
       $('#min-balance').text("0");
     }
+    $('#submitpay').hide();
+    $('#confirmpay').show();
   });
+    
   
 });
