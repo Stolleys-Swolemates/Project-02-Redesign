@@ -219,23 +219,25 @@ nav li {
 }
 
 .financialPage section {
-  padding: 1.5em;
+  padding: 1em 1em;
 }
 
 .financialPage th{
   text-align: center;
 }
-.financialPage .balanceInfo {
-  background-color: purple;
+.financialPage .balanceInfo, .payment{
   border-style: solid;
   border-width: 3px;
   border-color: darkred;
+  padding: 1em;
 }
-.financialPage .payment {
-  background-color: blue;
-  border-style: solid;
-  border-width: 3px;
-  border-color: darkred;
+
+.financialPage h1 {
+  padding-bottom: 1em;
+}
+
+.step {
+  font-size: 2em;
 }
 /* END OF PAGE SPECIFICS ************************/
 
@@ -259,6 +261,18 @@ nav li {
     display: inline;
     list-style-type: none;
   }
+  
+  .financialPage .balanceInfo {
+    margin: 1em 4em;
+  }
+  
+  .financialPage .payment {
+    margin: 1em 4em;
+  }
+  
+  .financialPage section {
+  padding: 1em 4em;
+}
 }
 
 
@@ -292,5 +306,12 @@ nav li {
     padding: 1em 1em;
   }
   
+  .financialPage .balanceInfo {
+    margin: 1em 4em;
+  }
+  
+  .financialPage .payment {
+    margin: 1em 4em;
+  }
 
 }
