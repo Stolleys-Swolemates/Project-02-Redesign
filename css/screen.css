@@ -29,6 +29,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 
 /* BASE ----------------------- */
+/* =============================================== */
 
 html {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -104,7 +105,16 @@ td, th {
 
 
 /* LAYOUT/MODULAR -------------- */
+/* =============================================== */
+.contentLeft {
+  float: none;
+  text-align: center;
+}
 
+.contentRight {
+  float: none;
+  text-align: center;
+}
 
 #heading {
   text-align: center;
@@ -144,6 +154,7 @@ td, th {
 
 /* PAGE SPECIFIC CLASS CSS */
 /* For if we want to do anything specific to one page */
+/* LOGIN PAGE *********************************/
 .loginPage {
   background-image: url(../media/iit-campus-1.jpg);
   background-position: center;
@@ -159,8 +170,10 @@ td, th {
   opacity: 1;
 }
 
+/* ACCOUNT PAGE *******************************/
+
 .accountPage {
-  
+  background-color: darkred;
 }
 .accountPage body {
   background-color: #FDFDFD;
@@ -196,22 +209,19 @@ nav li {
   text-align: center;
 }
 
-
+/* FINANCIAL PAGE *******************************/
 .financialPage {
-  
+  background-color: darkred;
 }
 
-.contentLeft {
-  float: none;
-  text-align: center;
+.financialPage body {
+  background-color: #FDFDFD;
 }
+/* END OF PAGE SPECIFICS ************************/
 
-.contentRight {
-  float: none;
-  text-align: center;
-}
 
 /* STATE ----------------------- */
+/* =============================================== */
 
 /* Tablets */
 
