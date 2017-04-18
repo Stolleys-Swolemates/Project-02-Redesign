@@ -219,7 +219,7 @@ td, th {
   /* Account Page */
 
   .loginPage body {
-    margin: 1em 10em 1em 10em;
+    margin: 2em 12em 2em 12em;
   }
   .accountPage nav {
     text-align: center;
@@ -236,7 +236,7 @@ td, th {
 @media (min-width: 1024px) {
   /* Login Page */
   .loginPage body {
-    margin: 4em 10em 4em 10em;
+    margin: 4em 19em 4em 19em;
   }
 
   /* Account Page */
