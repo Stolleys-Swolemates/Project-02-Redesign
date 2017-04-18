@@ -58,8 +58,13 @@ $(document).ready(function () {
   
   //Changes amount due
   $('#submitpay').on('click',function(e){
-    $('#submitpay').hide();
-    $('#confirmpay').show();
+    var ent = $('#pay').val();
+    if(ent === ""){
+      alert("There is no payment amount entered! Please try again.");
+    }else{
+      $('#submitpay').hide();
+      $('#confirmpay').show();
+    }
   });
   
   $('#confirmpay').on('click',function(e){
