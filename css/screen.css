@@ -217,6 +217,26 @@ nav li {
 .financialPage body {
   background-color: #FDFDFD;
 }
+
+.financialPage section {
+  padding: 1.5em;
+}
+
+.financialPage th{
+  text-align: center;
+}
+.financialPage .balanceInfo {
+  background-color: purple;
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkred;
+}
+.financialPage .payment {
+  background-color: blue;
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkred;
+}
 /* END OF PAGE SPECIFICS ************************/
 
 
@@ -267,4 +287,10 @@ nav li {
   }
   
   /* Financial Page */
+  .financialPage body {
+    margin: 1em 10em;
+    padding: 1em 1em;
+  }
+  
+
 }
