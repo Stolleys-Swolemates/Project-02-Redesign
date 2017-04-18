@@ -74,6 +74,7 @@ $(document).ready(function () {
       if(ent > 1000) {
       $('#min-balance').text("0");
     }
+  alert("Amount Paid! Total Balance: $" + balance.innerHTML);
   });
     
   
