@@ -241,12 +241,20 @@ nav li {
 .financialPage h1 {
   padding-bottom: 1em;
 }
-#submitpay {
+#submitpay  {
   color: white;
-  width: 40%;
-  margin-left: 30%;
+  width: 60%;
+  margin-left: 20%;
   margin-top: 1em;
-  background-color: dodgerblue;
+  background-color: mediumblue;
+}
+
+#confirmpay {
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1em;
+  background-color: mediumblue;
 }
 
 .step {
