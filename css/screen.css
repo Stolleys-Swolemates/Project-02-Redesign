@@ -236,6 +236,10 @@ nav li {
   text-align: center;
 }
 
+#balance-label, #balance {
+  font-size: 1.5em;
+}
+
 #confirmpay {
     display: none;
 }
