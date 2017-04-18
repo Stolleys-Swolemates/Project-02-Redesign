@@ -9,6 +9,9 @@
   <!-- STYLESHEET -->
   <link rel="stylesheet" media="screen" href="../../css/screen.css" />
 
+  <!-- Font Awesome Linking -->
+  <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
 
@@ -44,7 +47,7 @@
 
     <table>
       <tr>
-        <th> Amount Due </th>
+        <th> Minimum Amount Due </th>
         <th> Term </th>
         <th> Payment </th>
       </tr>
@@ -54,11 +57,63 @@
         <td> <input autocomplete="off" type="number" id="pay" /></td>
       </tr>
     </table>
-    <input type="submit" name="submitpay" id="submitpay" value="Pay" /> 
-    <nav>
-      <ul>
-        <li><a href="../../index.html">Logout</a></li>
-      </ul>
+
+    <div class="payment">
+      <form id="cardpay">
+        <div id="payform-cholder">
+          <label>Card Holder's Name</label>
+            <input type="text" placeholder="Fill in your First and Last Name"/>
+        </div>
+        <div id="payform-cnumber">
+          <label>Card Number</label>
+            <input type="text" placeholder="Enter Full Card Number"/>
+        </div>
+        <div id="payform-cvv">
+          <label>CVV</label>
+            <input type="text" placeholder="CVV"/>
+        </div>        
+        <div id="payform-expdate">
+          <label>Card Exp Date</label>
+            <select>
+              <option value="01">January</option>
+              <option value="02">February </option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">August</option>
+              <option value="09">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+            <select>
+              <option value="17"> 2017</option>
+              <option value="18"> 2018</option>
+              <option value="19"> 2019</option>
+              <option value="20"> 2020</option>
+              <option value="21"> 2021</option>
+              <option value="22"> 2022</option>
+              <option value="23"> 2023</option>
+              <option value="24"> 2024</option>
+            </select>
+        </div>
+        <div id="cardicons">
+          <i class="fa fa-cc-visa" aria-hidden="true"></i>
+          <i class="fa fa-cc-amex" aria-hidden="true"></i>
+          <i class="fa fa-cc-discover" aria-hidden="true"></i>
+          <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+          <i class="fa fa-cc-diners-club" aria-hidden="true"></i>
+        </div>
+      </form>
+    </div>    
+    <div>
+    <input type="submit" name="submitpay" id="submitpay" value="Pay Now" />
+    </div> 
+
+    <nav id="financenav">
+      <a href="../../index.html">Logout</a>
     </nav>
 </body>
 
