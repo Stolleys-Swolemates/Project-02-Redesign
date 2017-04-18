@@ -247,32 +247,31 @@ nav li {
 
 /* Tablets */
 
-@media (min-width: 750px) {
+@media (min-width: 700px) {
+  body {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
   /* Account Page */
-
   .loginPage body {
     margin: 2em 12em 2em 12em;
   }
   nav {
     text-align: center;
   }
-  
   #accountTabs li {
     display: inline;
     list-style-type: none;
   }
-  
   .financialPage .balanceInfo {
-    margin: 1em 4em;
+    margin: 1em 2em;
   }
-  
   .financialPage .payment {
-    margin: 1em 4em;
+    margin: 1em 2em;
   }
-  
   .financialPage section {
-  padding: 1em 4em;
-}
+    padding: 1em 2em;
+  }
 }
 
 
@@ -303,7 +302,7 @@ nav li {
   /* Financial Page */
   .financialPage body {
     margin: 1em 10em;
-    padding: 1em 1em;
+    padding: 1em 2em;
   }
   
   .financialPage .balanceInfo {
