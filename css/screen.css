@@ -214,12 +214,43 @@ nav li {
 }
 
 /* FINANCIAL PAGE *******************************/
+
 .financialPage {
   background-color: darkred;
 }
 
 .financialPage body {
   background-color: #FDFDFD;
+}
+
+.financialPage section {
+  padding: 1em 1em;
+}
+
+.financialPage th{
+  text-align: center;
+}
+.financialPage .balanceInfo, .payment{
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkred;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.financialPage h1 {
+  padding-bottom: 1em;
+}
+#submitpay {
+  color: white;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 1em;
+  background-color: dodgerblue;
+}
+
+.step {
+  font-size: 2em;
 }
 /* END OF PAGE SPECIFICS ************************/
 
@@ -229,19 +260,30 @@ nav li {
 
 /* Tablets */
 
-@media (min-width: 750px) {
+@media (min-width: 700px) {
+  body {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
   /* Account Page */
-
   .loginPage body {
     margin: 2em 12em 2em 12em;
   }
   nav {
     text-align: center;
   }
-  
   #accountTabs li {
     display: inline;
     list-style-type: none;
+  }
+  .financialPage .balanceInfo {
+    margin: 1em 2em;
+  }
+  .financialPage .payment {
+    margin: 1em 2em;
+  }
+  .financialPage section {
+    padding: 1em 2em;
   }
 }
 
@@ -271,4 +313,17 @@ nav li {
   }
   
   /* Financial Page */
+  .financialPage body {
+    margin: 1em 10em;
+    padding: 1em 2em;
+  }
+  
+  .financialPage .balanceInfo {
+    margin: 1em 4em 3em 4em;
+  }
+  
+  .financialPage .payment {
+    margin: 1em 4em 3em 4em;
+  }
+
 }
