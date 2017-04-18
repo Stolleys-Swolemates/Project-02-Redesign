@@ -2,8 +2,8 @@
 ITM 362 Redesign of myIIT Portal
 
 ## Simulated Login Information
-Username: swolley
-Password: *any password*
+- Username: swolley
+- Password: *any password*
 
 Bobby Ton
   - My strengths are in HTML and Javascript.
